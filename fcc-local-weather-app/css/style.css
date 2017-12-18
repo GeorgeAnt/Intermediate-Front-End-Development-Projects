@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body{
+  background-color: #356098;
+  font-size: x-large;
+}
+.container-fluid{
+  background-color:rgba(206, 206, 206, 0.4);
+  font-family: 'Roboto Slab', serif;
+  margin-top:2%;
+     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);  
+}
+#weatherIcon{
+  width:25%;
+}
+.content{
+  margin-top: 5%;
+  padding-bottom: 20px;
+}
+.title{
+  font-weight: 600;
+}
+.btn{
+  margin-bottom: 10px;
+}

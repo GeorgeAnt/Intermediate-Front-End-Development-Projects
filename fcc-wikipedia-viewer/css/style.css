@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Rubik+Mono+One');
+
+#search{
+  height:50px;
+  margin: 10px auto 0 auto;
+  font-size:large;
+}
+.btn{
+  margin-right:5px;
+  height: 40px;
+}
+.buttons{
+  margin:10px 0 10px -15px
+}
+#output{
+  margin-top:20px;
+  -webkit-padding-start:5px;
+  list-style-type: none; 
+}
+
+#output li{
+  font-size: medium;
+  font-family: serif; 
+  color:black;
+  border-color:#6a6666;
+  border-radius:0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#output li a{
+  font-size: large;
+}
+
+a{
+  color:#1a0dab;
+  
+}
+a:hover{ 
+    color: #3b2862;
+  }
+h2{
+  font-family:font-family: 'Rubik Mono One', sans-serif;
+  color:black;
+}
+
+#output li span{
+  color:green;
+}
+
+@media (max-width: 768px){
+  .buttons{
+    text-align:center;
+    margin:45px auto ;
+  }
+}

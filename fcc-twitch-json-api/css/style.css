@@ -1,0 +1,86 @@
+body {
+  background-image: url("https://i.imgur.com/VFsWN8k.jpg");
+  background-color: #6241a5;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container {
+  background: #faf9fa;
+  height: 100%;
+  float: none;
+}
+.buttonGroup {
+  margin-top: 20px;
+}
+.s {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search {
+  width: 90%;
+  border-radius: 5px;
+}
+.search {
+  margin: auto;
+  float: none;
+}
+.logos {
+  border-radius: 50%;
+  /*   width: 25%;
+  margin-left: 3%; */
+}
+#results {
+  list-style-type: none;
+  padding: 0;
+}
+.name {
+  margin-top: 12%;
+  overflow-x: auto;
+  overflow: hidden;
+  font-size: 25px;
+  word-wrap: break-word;
+  font-family: monospace;
+}
+.list {
+  margin: 5px 0;
+}
+
+.headers {
+  font-weight: 600;
+}
+.title {
+  border-color: #4a367c;
+  border-style: outset;
+}
+.list-group-item {
+  border-color: black;
+  border-width: 3px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  color: #333;
+  background-color: #333;
+}
+
+.headers {
+  font-family: "Anton", sans-serif;
+  font-size: 22px;
+}
+.headers p:last-child {
+  margin-left: -3%;
+}
+.headers p:nth-last-child(2) {
+  margin-left: -3%;
+}
+
+.headers p:first-child {
+  margin-left: 3%;
+}
+
+a {
+  color: #6141a5;
+}

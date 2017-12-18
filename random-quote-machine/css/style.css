@@ -1,0 +1,27 @@
+.card{
+  margin-top: 10px;
+}
+.background{
+  background-color: black;
+}
+
+.title-font{
+  font-style: italic;
+  font-family: "Times New Roman",serif;
+}
+.btn-twitter{
+  background-color:#1d9be8;
+  color:white;
+  border-color:#1777b1;
+}
+.btn-group{
+  margin:10px;
+}
+.card {
+    background-color: #d9d6d6;
+    border-color: #b0b0b0;
+    box-shadow: 0 27px 24px 0 rgba(0,0,0,.2), 0 40px 77px 0 rgba(0,0,0,.22);
+}
+body{
+  background-color: #bbeeec;
+}
